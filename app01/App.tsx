@@ -5,15 +5,14 @@ import {
   Text,
   View,
 } from 'react-native';
+import FlatCard from './components/FlatCard';
 
 
 function App():JSX.Element{
   return (
     <SafeAreaView>
       <View>
-        <Text>Hello World!!</Text>
-        <Text>Hello World!!</Text>
-        <Text>Hello World!!</Text>
+      <FlatCard/>
         <Text>Hello World!!</Text>
         <Text>Hello World!!</Text>
       </View>

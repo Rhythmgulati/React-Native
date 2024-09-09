@@ -6,6 +6,7 @@ import {
   View,
 } from 'react-native';
 import FlatCard from './components/FlatCard';
+import ElevatedCard from './components/ElevatedCard';
 
 
 function App():JSX.Element{
@@ -13,8 +14,7 @@ function App():JSX.Element{
     <SafeAreaView>
       <View>
       <FlatCard/>
-        <Text>Hello World!!</Text>
-        <Text>Hello World!!</Text>
+      <ElevatedCard/>
       </View>
     </SafeAreaView>
   )

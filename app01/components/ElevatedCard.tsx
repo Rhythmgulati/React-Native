@@ -6,10 +6,10 @@ export default function ElevatedCard() {
     <View>
       <Text style={styles.head }>ElevatedCard</Text>
     <ScrollView horizontal style={styles.container}>
-    <View style={styles.card}><Text>Red</Text></View>
-    <View style={styles.card}><Text>Red</Text></View>
-    <View style={styles.card}><Text>Red</Text></View>
-    <View style={styles.card}><Text>Red</Text></View>
+    <View style={[styles.card]}><Text>Red</Text></View>
+    <View style={[styles.card,styles.cardone]}><Text>Red</Text></View>
+    <View style={[styles.card,styles.cardtwo]}><Text>Red</Text></View>
+    <View style={[styles.card]}><Text>Red</Text></View>
     </ScrollView>
     </View>
   )
@@ -33,5 +33,11 @@ const styles = StyleSheet.create({
         alignItems:'center',
         justifyContent:'center',
         elevation:10
+    },
+    cardone:{
+      backgroundColor:"white"
+    },
+    cardtwo:{
+      backgroundColor:"yellow"
     }
 })

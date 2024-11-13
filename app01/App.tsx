@@ -9,6 +9,8 @@ import {
 import FlatCard from './components/FlatCard';
 import ElevatedCard from './components/ElevatedCard';
 import FancyCard from './components/FancyCard';
+import LinkCard from './components/LinkCard';
+import Contact from './components/Contact';
 
 
 function App():JSX.Element{
@@ -18,8 +20,8 @@ function App():JSX.Element{
       <FlatCard/>
       <ElevatedCard/>
       <FancyCard/>
-      <FancyCard/>
-      <FancyCard/>
+      <LinkCard/>
+      <Contact/>
       </ScrollView>
     </SafeAreaView>
   )
